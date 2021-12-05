@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">  
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <link rel="stylesheet" media="(max-width: 800px)" href="mobile.css" />
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <section class="section">
+    <div class="container">
+      <div class="user-card">
+        <div class="user-card-upper">
+          <img class="user-image" alt="user-icon" src="./assets/images/image-jeremy.png"/>
+          <div class="user-info">
+            <p> Report for</p>
+            <p class="user-name"> Jeremy Robson</p>
+          </div>
+        </div>
+        <div class="user-card-lower">
+          <div class="user-buttons-container">
+            <a class="user-button" id="dailyBtn">Daily</a>
+            <a class="user-button is-active" id="weeklyBtn">Weekly</a>
+            <a  class="user-button" id="monthlyBtn">Monthly</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="task-card">
+        <div class="task-card-upper task-type-work">
+          <img class="task-upper-background" src="./assets/images/icon-work.svg" alt="icon-work"/>
+        </div>
+        <div class="task-card-lower">
+          <div class="task-type-container">
+            <p>Work</p>
+            <span class="icon-work"></span>
+          </div>
+          <div class="task-info">
+            <p class="task-time">32hrs</p>
+            <p class="task-lastreport">Last week - 36hrs</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="task-card">
+        <div class="task-card-upper task-type-play">
+          <img class="task-upper-background" src="./assets/images/icon-play.svg" alt="icon-work"/>
+        </div>
+        <div class="task-card-lower">
+          <div class="task-type-container">
+            <p>Play</p>
+            <span class="icon-work"></span>
+          </div>
+          <div class="task-info">
+            <p class="task-time">10hrs</p>
+            <p class="task-lastreport">Last week - 8hrs</p>
+          </div>
+        </div>
+      </div>  
+
+      <div class="task-card">
+        <div class="task-card-upper task-type-study">
+          <img class="task-upper-background" src="./assets/images/icon-study.svg" alt="icon-work"/>
+        </div>
+        <div class="task-card-lower">
+          <div class="task-type-container">
+            <p>Study</p>
+            <span class="icon-work"></span>
+          </div>
+          <div class="task-info">
+            <p class="task-time">4hrs</p>
+            <p class="task-lastreport">Last week - 7hrs</p>
+          </div>
+        </div>
+      </div> 
+
+      <div class="task-card">
+        <div class="task-card-upper task-type-exercise">
+          <img class="task-upper-background" src="./assets/images/icon-exercise.svg" alt="icon-work"/>
+        </div>
+        <div class="task-card-lower">
+          <div class="task-type-container">
+            <p>Exercise</p>
+            <span class="icon-work"></span>
+          </div>
+          <div class="task-info">
+            <p class="task-time">4hrs</p>
+            <p class="task-lastreport">Last week - 5hrs</p>
+          </div>
+        </div>
+      </div> 
+
+      <div class="task-card">
+        <div class="task-card-upper task-type-social">
+          <img class="task-upper-background" src="./assets/images/icon-social.svg" alt="icon-work"/>
+        </div>
+        <div class="task-card-lower">
+          <div class="task-type-container">
+            <p>Social</p>
+            <span class="icon-work"></span>
+          </div>
+          <div class="task-info">
+            <p class="task-time">5hrs</p>
+            <p class="task-lastreport">Last week - 10hrs</p>
+          </div>
+        </div>
+      </div> 
+
+      <div class="task-card">
+        <div class="task-card-upper task-type-selfcare">
+          <img class="task-upper-background" src="./assets/images/icon-self-care.svg" alt="icon-work"/>
+        </div>
+        <div class="task-card-lower">
+          <div class="task-type-container">
+            <p>Self Care</p>
+            <span class="icon-work"></span>
+          </div>
+          <div class="task-info">
+            <p class="task-time">2hrs</p>
+            <p class="task-lastreport">Last week - 2hrs</p>
+          </div>
+        </div>
+      </div> 
+    </div>
+   
+  </div>    
+  </section>
+
+  
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Hikki12" target="_blank" style="color: var(--soft-blue);">Hikki12</a>.
+  </div>
+</body>
+</html>
