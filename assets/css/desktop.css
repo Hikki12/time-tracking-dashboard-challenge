@@ -1,0 +1,114 @@
+.section {
+    margin: 30vh 0;
+}
+
+.container {
+    flex-direction: row;
+    height: 100%;
+    width: 88%;
+    margin: 0 auto;
+    /* border: 2px solid green; */
+}
+
+
+/*USER*/
+.user-container {
+    padding: 0;
+    /* border: 2px solid yellow; */
+    height: 60%;
+    /* width: 20%; */
+    /* margin-right: 20px; */
+    margin: auto auto;
+    margin-left: 20px;
+
+}
+
+
+.user-card {
+    height: 403px;
+    width:220px;
+    min-width: 220px !important;
+    max-width: 200px !important;
+    margin-bottom: 56%;  
+    /* margin-left: 20%; */
+}
+
+.user-card-upper {
+    flex-direction: column;
+    height: 60%;
+}
+
+.user-image {
+    align-self: flex-start;
+}
+
+.user-info {
+    align-self: flex-start;
+    margin-left: 0;
+    margin-top: 30px;
+}
+.user-name {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.user-card-lower {
+    padding-left: 20px;
+    height: 48%;
+}
+
+.user-buttons-container {
+    flex-direction: column;
+    text-align: left;
+    align-self: flex-start;
+    top: 35%;
+}
+
+.user-button {
+    margin-bottom: 12px;
+}
+
+/* TASKS*/
+.tasks-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    padding:0;
+    width: 80%;
+    margin: auto 0;
+    justify-content: left;
+    /* border: 2px solid green; */
+}
+
+.task-card {
+    min-width: 255px;
+    min-height: 170px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    margin-right: -8px;
+}
+
+
+.task-card-upper {
+    height: 30%;
+}
+
+.task-card-lower {
+    height: 74%;
+}
+
+.task-info {
+    flex-direction: column;
+}
+
+.task-info .task-time {
+    text-align: left;
+    margin-top: 5px;
+    font-size: 48px;
+}
+
+.task-info .task-lastreport {
+    text-align: left;
+    margin-top: 5px;
+}
